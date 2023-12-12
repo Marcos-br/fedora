@@ -43,7 +43,7 @@ No log em anexo há o seguinte, indicando a porta designada:
 
 A porta muda se houver mais de uma VM no ar.
 
-Aceitem o diretório escolhido para vocês:
+Aceitem o primeiro diretório indicado para vocês:
 ```
 C:\Users\username\.ssh\config
 ```
