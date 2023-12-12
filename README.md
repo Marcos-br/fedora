@@ -43,7 +43,10 @@ No log em anexo há o seguinte, indicando a porta designada:
 
 A porta muda se houver mais de uma VM no ar.
 
-Aceitem o diretório escolhido para vocês: C:\Users\username\.ssh\config
+Aceitem o diretório escolhido para vocês:
+```
+C:\Users\username\.ssh\config
+```
 
 Para fazer a conexão: Control-Shift-P -> Remote-SSH ->  Remote-SSH:Connect to Host...
 
