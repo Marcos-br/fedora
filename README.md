@@ -24,9 +24,9 @@ Vejam como se parece o primeiro acesso via ssh no Powershell: ![Acesso_via_ssh.p
 
 Instalem a extensão de ssh para VS Code da Microsoft: 
 
-Instalem esta extensão: ![extensão_ssh](extensão_ssh.png)
+Instalem esta extensãom aqui: ![extensão_ssh](extensão_ssh.png)
 
-Control-Shift-P -> Remote-SSH: Add New SSH Host
+Control-Shift-P -> Remote-SSH -> Remote-SSH: Add New SSH Host
 
 Enter SSH Connection command: ssh vagrant@127.0.0.1 -p 2222
 
@@ -34,10 +34,12 @@ A porta 2222 é ilustrativa. Veja no seu log de subida da sua VM qual porta real
 
 No log em anexo há o seguinte, indicando a porta designada:
 
+```shell
 ==> default: Waiting for machine to boot. This may take a few minutes...
     default: SSH address: 127.0.0.1:2222
     default: SSH username: vagrant
     default: SSH auth method: password
+```
 
 A porta muda se houver mais de uma VM no ar.
 
