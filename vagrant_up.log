@@ -35,12 +35,12 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Mounting shared folders...
     default: /home/vagrant/code => C:/sandbox/vagrant/fedora/code
 ==> default: Running provisioner: shell...
-    default: Running: C:/Users/marco/AppData/Local/Temp/vagrant-shell20231212-7424-c301cb.sh
-    default: Fedora 38 - x86_64                              8.0 MB/s |  83 MB     00:10
+    default: Running: C:/Users/marco/AppData/Local/Temp/vagrant-shell20231212-13280-q43c7b.sh
+    default: Fedora 38 - x86_64                              7.3 MB/s |  83 MB     00:11
     default: Fedora 38 openh264 (From Cisco) - x86_64        1.7 kB/s | 2.5 kB     00:01
-    default: Fedora Modular 38 - x86_64                      3.2 MB/s | 2.8 MB     00:00
-    default: Fedora 38 - x86_64 - Updates                    6.2 MB/s |  36 MB     00:05
-    default: Fedora Modular 38 - x86_64 - Updates            1.4 MB/s | 2.1 MB     00:01
+    default: Fedora Modular 38 - x86_64                      2.5 MB/s | 2.8 MB     00:01
+    default: Fedora 38 - x86_64 - Updates                    7.8 MB/s |  36 MB     00:04
+    default: Fedora Modular 38 - x86_64 - Updates            1.7 MB/s | 2.1 MB     00:01
     default: Dependencies resolved.
     default: ================================================================================
     default:  Package                  Architecture Version              Repository     Size
@@ -58,11 +58,11 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: Total download size: 4.8 M
     default: Installed size: 23 M
     default: Downloading Packages:
-    default: (1/3): libxcrypt-compat-4.4.33-7.fc38.x86_64.rp 684 kB/s |  91 kB     00:00
-    default: (2/3): python3-setuptools-65.5.1-2.fc38.noarch. 5.3 MB/s | 1.7 MB     00:00
-    default: (3/3): python3-pip-22.3.1-3.fc38.noarch.rpm     4.3 MB/s | 3.1 MB     00:00
+    default: (1/3): libxcrypt-compat-4.4.33-7.fc38.x86_64.rp 523 kB/s |  91 kB     00:00
+    default: (2/3): python3-setuptools-65.5.1-2.fc38.noarch. 5.0 MB/s | 1.7 MB     00:00
+    default: (3/3): python3-pip-22.3.1-3.fc38.noarch.rpm     7.5 MB/s | 3.1 MB     00:00
     default: --------------------------------------------------------------------------------
-    default: Total                                           2.6 MB/s | 4.8 MB     00:01
+    default: Total                                           3.0 MB/s | 4.8 MB     00:01
     default: Fedora 38 - x86_64                              1.6 MB/s | 1.6 kB     00:00
     default: Importing GPG key 0xEB10B464:
     default:  Userid     : "Fedora (38) <fedora-38-primary@fedoraproject.org>"
@@ -88,11 +88,43 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default:   python3-setuptools-65.5.1-2.fc38.noarch
     default: 
     default: Complete!
+    default: Last metadata expiration check: 0:00:09 ago on Tue 12 Dec 2023 02:50:42 PM UTC.
+    default: Dependencies resolved.
+    default: ================================================================================
+    default:  Package       Architecture     Version                  Repository        Size
+    default: ================================================================================
+    default: Installing:
+    default:  tar           x86_64           2:1.34-8.fc38            fedora           889 k
+    default: 
+    default: Transaction Summary
+    default: ================================================================================
+    default: Install  1 Package
+    default: 
+    default: Total download size: 889 k
+    default: Installed size: 3.0 M
+    default: Downloading Packages:
+    default: tar-1.34-8.fc38.x86_64.rpm                      3.6 MB/s | 889 kB     00:00
+    default: --------------------------------------------------------------------------------
+    default: Total                                           848 kB/s | 889 kB     00:01
+    default: Running transaction check
+    default: Transaction check succeeded.
+    default: Running transaction test
+    default: Transaction test succeeded.
+    default: Running transaction
+    default:   Preparing        :                                                        1/1
+    default:   Installing       : tar-2:1.34-8.fc38.x86_64                               1/1
+    default:   Running scriptlet: tar-2:1.34-8.fc38.x86_64                               1/1
+    default:   Verifying        : tar-2:1.34-8.fc38.x86_64                               1/1
+    default: 
+    default: Installed:
+    default:   tar-2:1.34-8.fc38.x86_64
+    default: 
+    default: Complete!
     default: Collecting testresources
     default:   Downloading testresources-2.0.1-py2.py3-none-any.whl (36 kB)
     default: Collecting pbr>=1.8
     default:   Downloading pbr-6.0.0-py2.py3-none-any.whl (107 kB)
-    default:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.5/107.5 kB 4.9 MB/s eta 0:00:00
+    default:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.5/107.5 kB 6.6 MB/s eta 0:00:00
     default: Installing collected packages: pbr, testresources
     default: Successfully installed pbr-6.0.0 testresources-2.0.1
     default: 
@@ -101,11 +133,11 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: Requirement already satisfied: pip in ./.venv/lib64/python3.11/site-packages (22.3.1)
     default: Collecting pip
     default:   Downloading pip-23.3.1-py3-none-any.whl (2.1 MB)
-    default:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 14.5 MB/s eta 0:00:00
+    default:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 14.4 MB/s eta 0:00:00
     default: Requirement already satisfied: setuptools in ./.venv/lib64/python3.11/site-packages (65.5.1)
     default: Collecting setuptools
     default:   Downloading setuptools-69.0.2-py3-none-any.whl (819 kB)
-    default:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 819.5/819.5 kB 11.0 MB/s eta 0:00:00
+    default:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 819.5/819.5 kB 28.0 MB/s eta 0:00:00
     default: Installing collected packages: setuptools, pip
     default:   Attempting uninstall: setuptools
     default:     Found existing installation: setuptools 65.5.1

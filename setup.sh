@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo dnf install python3-pip -y
+sudo dnf install tar -y
 
 cd /home/vagrant
 
